@@ -1,0 +1,112 @@
+.Education-info {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    padding: 12px; 
+}
+
+.Education-info__list {
+    width: 116px;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: -4px;
+    position: relative;
+}
+
+.Education-info__list2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 127px;
+    margin-top: 37px;
+}
+
+.Education-info__list-item {
+    width: 116px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    color: #000;
+    line-height: 90%;
+}
+
+.Education-info__list-item.selected {
+    background: #28D979;
+    color: #fff;
+}
+
+
+.Education-info__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Education-info__period {
+    color: #fff;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.Education-info__period2 {
+    color: #000;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.Education-info__label {
+    color: #F6ED1E;
+}
+
+.Education-info__content {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Education-info__job {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.Education-info__job2 {
+    color: #000;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.Education-info__job-hashtags {
+    color: #EBF9F2;
+    font-size: 8px;
+}
+
+.Education-info__job-hashtags2 {
+    color: #149063;
+    font-size: 8px;
+}
+
+.Education-info__job-place {
+    color: #fff;
+    font-size: 9px;
+    margin-top: 8px;
+}
+
+.Education-info__job-place2 {
+    color: #000;
+    font-size: 9px;
+    margin-top: 8px;
+}

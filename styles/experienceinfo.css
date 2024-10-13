@@ -1,0 +1,143 @@
+.Experience-info {
+    display: flex;
+    flex-direction: column;
+    width: 411px;
+    height: 359px;
+    padding: 12px; 
+}
+
+
+.Experience-info__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.Experience-info__list2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.Experience-info__list-item {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    color: #000;
+    line-height: 90%;
+}
+
+.Experience-info__list-item2{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    color: #000;
+    line-height: 100%;
+}
+
+
+.Experience-info__list-item.selected {
+    background: #28D979;
+    color: #fff;
+}
+
+.Experience-info__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Experience-info__header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Experience-info__period {
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.Experience-info__period2{
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+
+.Experience-info__label {
+    color: #DDF163;
+    background-color: rgba(126, 115, 18, 0.4);
+    line-height: 155%;
+    font-size: 8px;
+    padding: 2px 6px;
+    border-radius: 59px;
+}
+
+
+.Experience-info__content {
+    display: flex;
+    justify-content: space-between;
+    line-height: 10%;
+}
+
+.Experience-info__content2{
+    display: flex;
+    justify-content: space-between;
+    line-height: 10%;
+}
+
+
+.Experience-info__job {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 124px;
+    height: 25px;
+}
+
+.Experience-info__job-specialty {
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.Experience-info__job-bottom {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 6px;
+    font-size: 8px;
+}
+
+.Experience-info__list-item.selected .experience-info__job-bottom {
+    color: #3F3D3D;
+}
+
+.Experience-info__job-name, 
+.Experience-info__job-time {
+    font-size: 8px;
+    line-height: 150%;
+}
+
+.Experience-info__responsibility-list {
+    width: 239px;
+}
+
+.Experience-info__responsibility-list-item {
+    font-size: 8px;
+    line-height: 150%;
+}

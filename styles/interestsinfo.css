@@ -1,0 +1,26 @@
+.Interests-info {
+    width: 267px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Interests-info__list {
+    align-items: left;
+    margin-top: 16px;
+    gap: 12px;
+}
+
+.Interests-info__list-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Interests-info__label {
+    padding: 4px 10px;
+    border-radius: 59px;
+    background: #fff;
+    color: #000;
+    font-size: 10px;
+    margin: 0 8px 8px 0;  
+}

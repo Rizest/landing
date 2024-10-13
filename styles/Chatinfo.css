@@ -1,0 +1,29 @@
+.Chat-info__list {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #000;
+    justify-content: space-between;
+    margin: 20px 0 0 -12px;
+    box-sizing: border-box;
+    width: 267px;
+}
+
+.Chat-info__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Chat-info__label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF;
+    margin-bottom: 12px;
+}
+
+.Chat-info__label2 {
+    font-size: 10px;
+    color: #DDDDDD;
+}
